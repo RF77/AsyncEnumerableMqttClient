@@ -24,8 +24,6 @@ namespace AsyncEnumerableMqttClient.Tests
 			await mqttClient.SubscribeAsync(new MqttTopicFilter{});
 			await mqttClient.StartAsync(options);
 
-			mqttClient.
-
 		}
 	}
 }
