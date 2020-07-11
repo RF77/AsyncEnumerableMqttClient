@@ -9,7 +9,7 @@ namespace AsyncEnumerableMqttClient.Client
 	{
 		public T Content { get; }
 
-		protected JsonMessage(MqttApplicationMessage message) : base(message)
+		public JsonMessage(MqttApplicationMessage message) : base(message)
 		{
 			T content = default;
 			var payload = message.Payload;

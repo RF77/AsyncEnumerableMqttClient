@@ -8,11 +8,11 @@ namespace AsyncEnumerableMqttClient.Client
 	/// Payload is a string and will be directly converted to the target value
 	/// </summary>
 	/// <typeparam name="T"></typeparam>
-	public class StringMessage<T> : BaseMessage, IStringMessage<T>
+	public class TextMessage<T> : BaseMessage, IStringMessage<T>
 	{
 		public T Content { get; }
 
-		protected StringMessage(MqttApplicationMessage message) : base(message)
+		public TextMessage(MqttApplicationMessage message) : base(message)
 		{
 			T content = default;
 			var payload = message.Payload;
