@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="MQTTnet.Extensions.ManagedClient" Version="3.0.11" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="rf77.AsyncEnumerableExtensions" Version="0.2.2-preview" />
   </ItemGroup>
 
